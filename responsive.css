@@ -1,0 +1,16 @@
+@media (width < 767px){
+    .links{
+        display: none;
+    }
+
+}
+
+@media (width > 767px){
+    .brgr{
+        display: none;
+    }    
+
+    .hidden{
+        display: none;
+    }
+}

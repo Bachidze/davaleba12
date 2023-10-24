@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600;700;900&family=BhuTuka+Expanded+One&family=Big+Shoulders+Display:wght@800;900&family=Epilogue:wght@300;700;900&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Kumbh+Sans:wght@400;700&family=Open+Sans&family=Oswald:wght@500&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Roboto:ital,wght@1,700&family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600;700;900&family=BhuTuka+Expanded+One&family=Big+Shoulders+Display:wght@800;900&family=Epilogue:wght@300;700;900&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Kumbh+Sans:wght@400;700&family=Open+Sans&family=Oswald:wght@500&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Roboto:ital,wght@1,700&family=Work+Sans:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rebeccapurple;
+}
+
+header{
+    padding: 44px 24px;
+    background-image: url(./assets/Bitmap\ \(29\).svg);
+    height: 500px;
+} 
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    z-index: 100;
+}
+
+.photo{
+    z-index: 111;
+}
+
+.brgr{
+    z-index: 100;
+}
+
+.brgr-div{
+    width: 100%;
+    background-color: black;
+    height: 302px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 253px 24px;
+    justify-content: space-evenly;
+    font-family: barlow;
+    display: none;
+    gap: 20px;
+}
+.brgr-div,.hidden a{
+    color: white;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 25px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.hidden{
+    display: flex;
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 26px 24px;
+    border: 1px solid white;
+    margin-top: 100px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 38px;
+    word-wrap: break-word;
+}
+
+.mini-container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-top: 98px;
+}
+
+h2{
+    color: black;
+    font-size: 32px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word;
+    padding: 48px 40px;
+    width: 350px;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    font-family: Alata;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    padding: 32px 40px;
+    width: 350px;
+}
+
+.tittle-1{
+    color: black;
+    font-size: 32px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 32px;
+    word-wrap: break-word;
+    padding-top: 98px;
+}
+
+.mini-container-2{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 48px 24px;
+    gap: 24px;
+}
+
+
+.first{
+    background-image: url(./assets/Bitmap\ \(21\).svg);
+    height: 120px;
+    width: 100%;
+}
+.second{
+    background-image: url(./assets/Bitmap\ \(22\).svg);
+    height: 120px;
+    width: 100%;
+}
+.third{
+    background-image: url(./assets/Bitmap\ \(23\).svg);
+    height: 120px;
+    width: 100%;
+}
+.fourth{
+    background-image: url(./assets/Bitmap\ \(24\).svg);
+    height: 120px;
+    width: 100%;
+}
+.fifth{
+    background-image: url(./assets/Bitmap\ \(25\).svg);
+    height: 120px;
+    width: 100%;
+}
+.sixth{
+    background-image: url(./assets/Bitmap\ \(26\).svg);
+    height: 120px;
+    width: 100%;
+}
+.seventh{
+    background-image: url(./assets/Bitmap\ \(27\).svg);
+    height: 120px;
+    width: 100%;
+}
+.eighth{
+    background-image: url(./assets/Bitmap\ \(30\).svg);
+    height: 120px;
+    width: 100%;
+}
+
+h4{
+     color: white;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 24px;
+    word-wrap: break-word;
+    display: flex;
+    padding: 52px 20px;
+    align-items: end;
+    justify-content: start;
+    align-content: end;
+}
+
+.mini-container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+    padding-bottom: 109px;
+}
+
+
+h5{
+    padding: 13px 43px;
+    border: 2px solid rgb(245, 35, 70);
+     color: black;
+    font-size: 14px;
+    font-family: Alata;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 5px;
+    word-wrap: break-word;
+}
+
+h5:hover{
+    color: white;
+    background-color: black;
+    border: none;
+    transform: 3.5s;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-1{
+    padding: 46px 116px;
+}
+
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 62px;
+}
+.footer-2 a{
+        color: white;
+        font-size: 15px;
+        font-family: Alata;
+        font-weight: 400;
+        line-height: 25px;
+        word-wrap: break-word;
+        text-decoration: none;
+}
+
+.footer-3{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.footer-footer{
+    color: white;
+    font-size: 15px;
+    font-family: Alata;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+}
