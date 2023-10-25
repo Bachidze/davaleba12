@@ -7,6 +7,10 @@
         display: none;
     }
 
+    .desktop{
+        display: none;
+    }
+
 }
 
 @media(width > 1440px){
@@ -118,6 +122,7 @@
     .mini-mini{
         display: grid;
         grid-template-columns: auto auto auto auto;
+        display: none;
     }
 
     .footer-2{
@@ -147,6 +152,18 @@
         padding-right: 200px;
         position: relative;
         bottom: 140px;
+    }
+
+    .desktop{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .mini-container-3 h5:hover{
+        background-color: red;
+        transition: 3.5s;
     }
 }
 
