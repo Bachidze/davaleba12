@@ -165,6 +165,15 @@
         background-color: red;
         transition: 3.5s;
     }
+
+    .mini-container-3 h5{
+        display: none;
+    }
+
+    .bachidze{
+        position: relative;
+        top: 10px;
+    }
 }
 
 @media (width > 767px){
