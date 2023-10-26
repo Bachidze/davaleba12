@@ -18,6 +18,11 @@
         display: none;
     }
 
+    .zrda{
+        width: 600px;
+        height: 500px;
+    }
+
     header{
         background-image: url(./assets/Bitmap\ \(31\).svg);
         width: 100%;
